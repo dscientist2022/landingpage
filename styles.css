@@ -12,7 +12,7 @@ body {
 .firstseccontainer {
     font-family: 'Roboto', sans-serif;
     padding: 10 10 10 10;
-    height: 500px;
+    height: 600px;
     background-color: #1f2937;
 }
 
@@ -22,6 +22,7 @@ ul {
     list-style-type: none;
     display: flex;
     gap: 25px;
+    margin-right: 100px;
 }
 
 a {
@@ -31,11 +32,12 @@ a {
 
 .header {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
 .hright {
+    margin-left: 100px;
     font-size: 24px;
     color: #f9faf8;
 }
@@ -46,11 +48,14 @@ a {
     display: flex;
     justify-content: space-evenly;
     padding: 40px;
+    justify-content: center;
+    gap: 50px;
     
 }
 
 .puretext,
 .imagecontainer {
+    margin-top: 50px;
     width: 350px;
     height: 200px;
 }
@@ -63,11 +68,14 @@ a {
 
 .maintext {
     font-size: 48px;
-    font-weight: 700;
+    font-weight: 900px;
+    color: #f9faf8;
+
 }
 
-.subtext {
+.subtexttop {
     font-size: 18px;
+    color: #e5e7eb;
 }
 
 .signupbtn {
@@ -77,4 +85,45 @@ a {
     border-radius: 5px;
     width: 100px;
     height: 30px;
+}
+
+/* Section 2. This part contains InfoTitle,Image,Subtext on image facing downward */
+
+.secondseccontainer {
+    height: 500px;
+    padding: 10px 10px 40px 10px;
+}
+
+.imgtxtholder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;    
+}
+
+.imgandinfo {
+    height: 200px;
+    width: 200px;
+}
+
+.cats {    
+    width: 180px;
+    height: auto;
+    padding: 0 10px 0 10px;
+    border-radius: 20px;
+}
+
+.information {
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;    
+}
+
+.subtext {
+    font-family: 'Roboto', sans-serif;
+    color: #1f2937;
+    font-size: 18px;
+    text-align: center;
 }
