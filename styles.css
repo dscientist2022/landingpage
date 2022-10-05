@@ -197,6 +197,17 @@ a {
     width: 80px;    
 }
 
+.footer {
+    background-color: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: 70px;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+}
+
 
 
 
